@@ -1,2 +1,41 @@
-cuda/
-cuda2/
+# Compiled executables
+*.exe
+*.out
+cuda
+cuda2
+
+# CUDA compiled objects
+*.o
+*.obj
+*.cubin
+*.fatbin
+*.ptx
+
+# Build directories
+build/
+bin/
+obj/
+lib/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sln
+*.vcxproj*
+*.user
+*.suo
+
+# Debug files
+*.pdb
+*.ilk
+*.log
+
+# Temporary files
+*.tmp
+*~
+*.swp
+*.swo
+
+# OS generated files
+Thumbs.db
+.DS_Store
